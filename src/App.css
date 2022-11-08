@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.App-count {
+    animation: App-logo-spin infinite 5s;
+    font-size: 2em;
+}
+
+.App-header {
+  background-color: #282c34fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  0% {
+    color: #f5eded;
+  }
+  25% {
+    color: #2121bd;
+  }
+  75% {
+    color: green;
+  }
+  100% {
+    color:#cc0707;
+  }
+}
